@@ -1,0 +1,14 @@
+{
+  "name": "05practica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "05practica.js",
+  "scripts": {
+    "start": "node 05practica.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
