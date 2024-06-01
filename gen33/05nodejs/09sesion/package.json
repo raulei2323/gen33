@@ -1,0 +1,16 @@
+{
+  "name": "09sesion",
+  "version": "1.0.0",
+  "description": "09sesion",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch . ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
