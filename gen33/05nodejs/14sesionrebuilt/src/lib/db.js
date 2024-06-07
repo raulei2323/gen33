@@ -3,12 +3,7 @@
 const mongoose = require('mongoose') 
 
 //? sacamos(deestructuramos) las varialbles de entorno del obejto process.env
-const {
-    DB_USER,
-    DB_PASSWORD,
-    DB_HOST,
-    DB_NAME,
-} = process.env 
+const { DB_USER, DB_PASSWORD, DB_HOST, DB_NAME } = process.env 
 
 //?URL de conexion usando template strings
 const URI =`mongodb+srv://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${DB_NAME}`
@@ -21,5 +16,5 @@ function connect () {
 //?en el archivo index.js (index.js se encarga de levantar la aplicacion)
 
 //?se exporta o se pone como exportable la funcion 
-module.export = { connect } 
+module.exports = { connect } 
 
