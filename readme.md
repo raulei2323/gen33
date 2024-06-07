@@ -1,10 +1,11 @@
 Repositorio para el contenido en clases y practicas Gen 33
 
-La rama gen33 es el merge de todas las demas ramas guardadas en local. 05nodejs y 04javascript son subramas que a su vez tienen subramas.
+La rama main es el merge de todas las demas ramas guardadas en local. 05nodejs y 04javascript son subramas que a su vez tienen subramas. 
+05nodejs y 04javascript son ramas de control y se deberan unir con la rama main una vez los cambios queden hechos definitivamente.
 05nodejs tiene las subramas de sesiones (01sesion, 02sesion...etc)  y tambien la subrama practicasbrackend.La subrama practicasbackend tiene subramas(01practica, 02 practica....etc).
 En 05nodejs estan los merege de todas las sesiones y la subrama practicasbackend.
 En practicasbackend estan los merge de las diferentes practicas
-<gen33>// merged <05nodejs> y <04javascipt>(cuando suceda)
+<main>// merged <05nodejs> y <04javascipt>(cuando suceda)
 <05nodejs>//  merged ,<5nodejs-01sesion>,<05nodejs-02sesion>...etc y <05nodejs-practicasbackend> 
 <05nodejs-practicasbackend> merged <05nodejs-practicasbackend-01practica>, <05nodejs-practicasbackend-02practica>,.....etc
 
