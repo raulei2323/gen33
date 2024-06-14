@@ -95,3 +95,41 @@ body {
   border-radius: 20px;
   background-color: #282828;
 }
+
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+#videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.video-card footer {
+   display: grid;
+   gap: 0.5rem;
+   grid-template-columns: 2rem 1fr;
+
+
+}
+.video-card footer img {
+  columns: 1 / 2;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.video-card-title .video-card-channel {
+  grid-column: 2 / 3;
+}

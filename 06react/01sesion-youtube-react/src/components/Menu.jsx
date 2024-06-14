@@ -10,7 +10,7 @@ export default function Menu() {
     <aside id="menu">
         {
         menuItems
-        .filter((item) => item.text.startsWith('S'))
+        // .filter((item) => item.text.startsWith('S'))
         .map((item) =>{
             return (
                 <div key={`menu-item-${item.text}`} className="menu-item">
