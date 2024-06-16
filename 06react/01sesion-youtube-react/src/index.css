@@ -133,3 +133,6 @@ body {
 .video-card-title .video-card-channel {
   grid-column: 2 / 3;
 }
+.special {
+  border: 1px solid red;
+}

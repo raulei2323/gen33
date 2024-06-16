@@ -24,7 +24,6 @@ export default function Content() {
         image:
           'https://i.ytimg.com/vi/jfKfPfyJRdk/hq720_live.jpg?sqp=CPTkrLMG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLClPXMME-nE4g8VR-pjBAOuumn18Q',
         title: 'lofi hip hop radio 📚 - beats to relax/study to 1',
-        channel: 'Lofi Girl4'
       },
   ];
   return (
